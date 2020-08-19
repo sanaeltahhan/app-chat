@@ -5,7 +5,7 @@ before_script:
     - npm install
 script: npm run build
 deploy:
-    local-dir: dist/app-chat
+    local-dir: dist/app-chat/app-chat
     provider: pages
     skip-cleanup: true
     github-token: $GITHUB_TOKEN
