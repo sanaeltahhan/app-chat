@@ -1,0 +1,46 @@
+<div class="container">
+
+  <div class="jumbotron">
+    <h1 class="display-4">Contactez-nous</h1>
+  </div>
+
+  <form #etatForm="ngForm">
+
+    <div class="form-group" [ngClass] ="{'was-validated' : etatNom.touched}"> <!-- {classe CSS voulue : un booléen qui selon sa valeur
+      active ou désactive la classe CSS -->
+      <label for="nom">Nom </label>
+      <input type="text" #etatNom class="form-control" name="nom" required>
+      <div class="valid-feedback"></div>
+      <div class="invalid-feedback">Nom invalide</div>
+    </div>
+
+    <div class="form-group" [ngClass] ="{'was-validated' : etatPrenoms.touched}">
+      <label for="prenoms">Prénom </label>
+      <input type="text" #etatPrenoms class="form-control" name="prenoms" required>
+      <div class="valid-feedback"></div>
+      <div class="invalid-feedback">Prénom invalide</div>
+    </div>
+
+    <div class="form-group" [ngClass] ="{'was-validated' : etatEmail.touched}">
+      <label for="email">Email </label>
+      <input type="email" #etatEmail class="form-control" name="email" required>
+      <div class="valid-feedback"></div>
+      <div class="invalid-feedback">Email invalide</div>
+    </div>
+
+    <div class="form-group" [ngClass] ="{'was-validated' : etatmessage.touched}">
+      <label for="message">Message </label>
+      <textarea class="form-control rounded-0" id="message" rows="3" #etatmessage placeholder="Entrez votre message..." required minlength="3"></textarea>
+      <div class="valid-feedback"></div>
+      <div class="invalid-feedback">Message invalide</div>
+    </div>
+
+    <hr>
+
+    <br>
+
+    <button type="submit" class="btn btn-primary">Créer</button>
+
+  </form>
+
+</div>
