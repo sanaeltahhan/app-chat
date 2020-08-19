@@ -44,6 +44,12 @@ npm start
 
 
 
+* Acceuil
+
+  ```
+  ![accueil](./app-chat_screenshots/accueil_app-chat.png)
+  ```
+
 
 
 <!-- Markdown links & images -->
@@ -52,4 +58,5 @@ npm start
 [contributors-url]: https://github.com/sanaeltahhan/app-chat/graphs/contributors
 [issues-url]: https://github.com/sanaeltahhan/app-chat/issues
 [issues-shield]: https://img.shields.io/github/issues/sanaeltahhan/app-chat.svg?style=flat-square
+[ accueil ]: ./app-chat_screenshots/accueil_app-chat.png
 
