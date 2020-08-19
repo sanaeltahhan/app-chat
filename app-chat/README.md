@@ -1,6 +1,5 @@
-[![Contributors][contributors-shield]](https://github.com/sanaeltahhan/app-chat/graphs/contributors)
-[![Issues][issues-shield]](https://github.com/sanaeltahhan/app-chat/issues)
-
+[![Contributors][contributors-shield]][contributors-url]
+[![Issues][issues-shield]][issues-url]
 # App-chat
 
 App-chat est une application angular qui rassemble tous les chats abandonnés qui n'attendent que d'être adoptés !
@@ -24,3 +23,7 @@ npm start
 
 # A propos de l'application
 
+
+<!-- Markdown links & images -->
+[contributors-url]: https://github.com/sanaeltahhan/app-chat/graphs/contributors
+[issues-url]: https://github.com/sanaeltahhan/app-chat/issues
