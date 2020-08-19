@@ -1,3 +1,4 @@
+import { ContactComponent } from './contact/contact.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -8,12 +9,13 @@ import { AppComponent } from './app.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FormsModule } from '@angular/forms';
 
 
 const ROUTES: Routes = [
    { path: 'accueil', component: AccueilComponent},
    { path: 'donner', component: AccueilComponent},
-   { path: 'contact', component: AccueilComponent},
+   { path: 'contact', component: ContactComponent},
    { path: 'adopter', component: AccueilComponent},
    { path: 'forum', component: AccueilComponent},
 
@@ -23,6 +25,7 @@ const ROUTES: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
+    ContactComponent,
     AccueilComponent,
     NavbarComponent
   ],
@@ -30,6 +33,7 @@ const ROUTES: Routes = [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    FormsModule,
     RouterModule.forRoot(ROUTES)
   ],
   providers: [],
