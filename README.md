@@ -44,10 +44,24 @@ npm start
 
 
 
-* Acceuil
+* Accueil
 
- 
+
   ![accueil](app-chat_screenshots/accueil_app-chat.png)
+
+* Adopter un chat
+
+  ![Adopter un chat](app-chat_screenshots/adopter_un_chat_app-chat.png)
+
+
+
+* Donner un chat
+
+  ![Donner un chat](app-chat_screenshots/donner_un_chat_app-chat.png)
+
+* Contact
+
+  ![contact](app-chat_screenshots/contact_app-chat.png)
 
 
 
@@ -57,5 +71,5 @@ npm start
 [contributors-url]: https://github.com/sanaeltahhan/app-chat/graphs/contributors
 [issues-url]: https://github.com/sanaeltahhan/app-chat/issues
 [issues-shield]: https://img.shields.io/github/issues/sanaeltahhan/app-chat.svg?style=flat-square
-[ accueil ]: ./app-chat_screenshots/accueil_app-chat.png
+[ accueil-photo ]: app-chat_screenshots/accueil_app-chat.png
 
