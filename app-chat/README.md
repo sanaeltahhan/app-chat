@@ -25,5 +25,7 @@ npm start
 
 
 <!-- Markdown links & images -->
+[contributors-shield]: https://img.shields.io/github/contributors/sanaeltahhan/app-chat.svg?style=flat-square
 [contributors-url]: https://github.com/sanaeltahhan/app-chat/graphs/contributors
 [issues-url]: https://github.com/sanaeltahhan/app-chat/issues
+[issues-shield]: https://img.shields.io/github/issues/sanaeltahhan/app-chat.svg?style=flat-square
