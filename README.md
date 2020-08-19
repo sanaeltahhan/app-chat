@@ -1,4 +1,4 @@
-[![Contributors][contributors-shield]][contributors-url] [![Issues][issues-shield]][issues-url]
+[![Contributors][contributors-shield]][contributors-url] [![Issues][issues-shield]][issues-url] [![Build Status](https://travis-ci.org/sanaeltahhan/app-chat.svg?branch=master)](https://travis-ci.org/sanaeltahhan/app-chat)
 
 # App-chat
 
