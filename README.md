@@ -46,9 +46,8 @@ npm start
 
 * Acceuil
 
-  ```
+ 
   ![accueil](app-chat_screenshots/accueil_app-chat.png)
-  ```
 
 
 
