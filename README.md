@@ -1,48 +1,46 @@
 [![Contributors][contributors-shield]][contributors-url] [![Issues][issues-shield]][issues-url]
 
-**# App-chat**
-
-
+# App-chat
 
 App-chat est une application angular qui rassemble tous les chats abandonnés qui n'attendent que d'être adoptés !
 
 
 
-**# Installer et lancer l'application**
+# Installer et lancer l'application
 
 
 
 1- Cloner le dépôt git
 
-\```sh
+```sh
 
 git clone https://github.com/sanaeltahhan/app-chat.git
 
-\```
+```
 
 
 
 2- Installer les packages NPM
 
-\```sh
+```sh
 
 npm install
 
-\```
+```
 
 
 
 3- Lancer l'application
 
-\```sh
+```sh
 
 npm start
 
-\```
+```
 
 
 
-**# A propos de l'application**
+# A propos de l'application
 
 
 
