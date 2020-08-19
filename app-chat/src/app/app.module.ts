@@ -15,7 +15,7 @@ import { FormsModule } from '@angular/forms';
 const ROUTES: Routes = [
    { path: 'accueil', component: AccueilComponent},
    { path: 'donner', component: AccueilComponent},
-   { path: 'contact', component: AccueilComponent},
+   { path: 'contact', component: ContactComponent},
    { path: 'adopter', component: AccueilComponent},
    { path: 'forum', component: AccueilComponent},
 
