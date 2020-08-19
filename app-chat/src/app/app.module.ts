@@ -8,14 +8,15 @@ import { AppComponent } from './app.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AdopterComponent } from './adopter/adopter.component';
 
 
 const ROUTES: Routes = [
-   { path: 'accueil', component: AccueilComponent},
-   { path: 'donner', component: AccueilComponent},
-   { path: 'contact', component: AccueilComponent},
-   { path: 'adopter', component: AccueilComponent},
-   { path: 'forum', component: AccueilComponent},
+  { path: 'accueil', component: AccueilComponent },
+  { path: 'donner', component: AccueilComponent },
+  { path: 'contact', component: AccueilComponent },
+  { path: 'adopter', component: AdopterComponent },
+  { path: 'forum', component: AccueilComponent },
 
   { path: '', pathMatch: 'full', redirectTo: '/accueil' },
 ];
@@ -24,7 +25,8 @@ const ROUTES: Routes = [
   declarations: [
     AppComponent,
     AccueilComponent,
-    NavbarComponent
+    NavbarComponent,
+    AdopterComponent
   ],
   imports: [
     BrowserModule,
