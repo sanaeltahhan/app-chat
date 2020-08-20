@@ -8,7 +8,13 @@ App-chat est une application angular qui rassemble tous les chats abandonnés qu
 
 # Installer et lancer l'application
 
+## En ligne
 
+https://sanaeltahhan.github.io/app-chat-2/accueil
+
+
+
+## En local
 
 1- Cloner le dépôt git
 
