@@ -10,7 +10,7 @@ App-chat est une application Angular qui rassemble tous les chats abandonnés qu
 
 ## En ligne
 
-https://sanaeltahhan.github.io/app-chat-2/accueil
+https://sanaeltahhan.github.io/app-chat-2
 
 
 
